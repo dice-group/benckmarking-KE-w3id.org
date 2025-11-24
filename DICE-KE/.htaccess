@@ -1,0 +1,15 @@
+# # /Benchmarking-KE/
+#
+# A collection of URL redirection.
+#
+# https://w3id.org/benchmarking-KE/ redirects to
+# https://github.com/dice-group/benckmarking-KE-w3id.org/tree/master/DICE-KE
+#
+# ## Contact
+# This space is administered by:  
+#
+# Tatiana Moteu Ngoli
+# GitHub username: TatianaMoteuN
+
+RewriteEngine on
+RewriteRule ^ https://github.com/perma-id/w3id.org/tree/master/DICE-KE [R=302,L]
